@@ -14,10 +14,7 @@ if (isset ($_POST['name'])  && isset($_POST['email']) ) {
     header("Location: index.php");
   }
 
-
-
 }
-
 
  ?>
 <?php require 'header.php'; ?>

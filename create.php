@@ -9,9 +9,6 @@ if (isset ($_POST['name'])  && isset($_POST['email']) ) {
   if ($statement->execute([':name' => $name, ':email' => $email])) {
     $message = 'data inserted successfully';
   }
-
-
-
 }
 
 
